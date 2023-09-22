@@ -1,8 +1,8 @@
-    let runningTotal = 0;
-    let buffer = "0";
-    let previousOperator;
+    var runningTotal = 0;
+    var buffer = "0";
+    var previousOperator;
 
-    const screen = document.querySelector('.screen');
+    var screen = document.querySelector('.screen');
 
     function buttonClick(value){
         if(isNaN(value)){
